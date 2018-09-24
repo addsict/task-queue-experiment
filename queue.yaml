@@ -1,6 +1,6 @@
 queue:
 - name: task-queue-experiment
   target: task-queue-experiment
-  bucket_size: 1
+  bucket_size: 5
   rate: 5/s
   max_concurrent_requests: 1000
